@@ -9,6 +9,7 @@ export const getPlants = (req: Request, res: Response, next: NextFunction) => {
     next(error);
   }
 };
+
 export const createPlant = (req: Request, res: Response, next: NextFunction) => {
   try {
     console.log('holi');
